@@ -8,7 +8,7 @@
     
 /* Styles sur le nav */
 
-    nav {margin-bottom: 70px; margin-right: 2%; min-width: 580px; margin-left: 2%;}
+    nav {margin-bottom: 70px; margin-right: 2%; margin-left: 2%; min-width: 550px;}
 
     #logo {width: 85px; position: absolute; top: 30px;}
 
@@ -31,7 +31,9 @@
 
     /* Styles sur la zone de recherche */
 
-        #section1 {min-width: 880px; margin-right: 2%; margin-left: 2%;}
+        #section1 {margin-right: 2%; margin-left: 2%;}
+
+        #titleandcatchysentence {min-width: 550px;}
 
         #maintitle {line-height: 0.1em;}
 
@@ -42,10 +44,13 @@
         .fa-map-marker-alt {background-color: #f2f2f2; border-radius: 13px 0 0 13px; padding-left: 14px; padding-right: 14px; 
             padding-top: 12px;}
 
-        input {border: 1px solid #f2f2f2; font-family: 'Raleway'; font-weight: bold; font-size: 0.9em; ; height: 35px; padding-left: 15px;}
+        input {border: 1px solid #f2f2f2; font-family: 'Raleway'; font-weight: bold; font-size: 0.9em; ; height: 35px; padding-left: 15px;
+             width: 182px;}
 
         button {color : white; background-color: #0065FC; font-family: 'Raleway'; font-weight: 600; border: solid 1px #0065FC; 
             border-radius: 0 13px 13px 0; font-size: 0.9em; width: 110px;}
+
+        .fa-search {color: transparent;}   
 
         button:hover {color: #0065FC; background: white; border: 1px solid #f2f2f2;}
 
@@ -53,7 +58,7 @@
 
     /* Styles sur la zone de filtre + point info*/    
 
-        #filtersarea {margin-top: 30px; margin-bottom: 30px;}
+        #filtersarea {margin-top: 30px; margin-bottom: 30px; min-width: 850px;}
     
         #filters {font-size: 0.9em; font-weight: bold; margin-top: 15px;}
     
@@ -83,7 +88,7 @@
 
     .fa-star {color: #0065FC;}
 
-    .hostelnames {font-size: 1.1em; font-weight: bold;}
+    .hostelnames, .hostelnames2 {font-size: 1.1em; font-weight: bold;}
 
     .euro {font-weight: bold;}
 
@@ -92,7 +97,7 @@
 
     /* Styles sur l'article Hébergements */
 
-        #accomodationarticle {background-color: #f2f2f2; min-width: 843px; height: 610px; margin-right: 35px; margin-top: 10px;
+        #accomodationarticle {background-color: #f2f2f2; height: 610px; margin-right: 35px; margin-top: 10px;
              border-radius: 15px; margin-bottom: 35px;}  
         
         #accomodationtitle {margin-left: 35px; margin-top: 35px; margin-bottom: 25px;}
@@ -106,10 +111,13 @@
         .frametext {line-height: 1.7em; background-color: white; height: 65px; width: 218px; padding-left: 12px; font-size: 0.8em;
             padding-top: 5px;}
 
+        #framephotoandtext1:hover, #framephotoandtext2:hover, #framephotoandtext3:hover, #framephotoandtext4:hover, #framephotoandtext5:hover,
+         #framephotoandtext6:hover {box-shadow: 0 0 20px black;}
+
         /* Styles sur la première et quatrième image */
 
-            #framephotoandtext1, #framephotoandtext4 {overflow: hidden; border: white solid 4px; border-radius: 17px 17px 17px 17px; margin-left: 40px;
-                box-shadow: 0 0 15px #cccccc;}
+            #framephotoandtext1, #framephotoandtext4 {overflow: hidden; border: white solid 4px; border-radius: 17px 17px 17px 17px; 
+                margin-left: 40px; box-shadow: 0 0 15px #cccccc;}
 
             #photo1 {width: 260px; position: relative; bottom: 26px; right: 28px;}
 
@@ -117,8 +125,8 @@
 
         /* Styles sur la deuxième et cinquième image */
 
-            #framephotoandtext2, #framephotoandtext5 {overflow: hidden; border: white solid 4px; border-radius: 17px 17px 17px 17px; margin-left: 25px;
-            margin-right: 25px; box-shadow: 0 0 15px #cccccc;}
+            #framephotoandtext2, #framephotoandtext5 {overflow: hidden; border: white solid 4px; border-radius: 17px 17px 17px 17px;
+                 margin-left: 25px; margin-right: 25px; box-shadow: 0 0 15px #cccccc;}
 
             #photo2 {width: 250px; position: relative; bottom: 23px; right: 15px;}
 
@@ -135,7 +143,7 @@
         
     /* Styles sur l'aside Les plus populaires */
 
-        #popular {background-color: #f2f2f2; min-width: 413px; height: 610px; border-radius: 15px; margin-top: 10px;}
+        #popular {background-color: #f2f2f2; height: 610px; border-radius: 15px; margin-top: 10px; min-width: 418px;}
 
         #titlepopular {font-weight: bold; font-size: 1.3em; margin-left: 35px; margin-top: 35px;}
         
@@ -150,17 +158,19 @@
 
         .popularnight {margin-bottom: 24px;}
 
+        #framephotoandtext7:hover, #framephotoandtext8:hover, #framephotoandtext9:hover {box-shadow: 0 0 20px black;}
+
         /* Styles sur la première image */
 
-            #framephotoandtext7 {display: flex; overflow: hidden; border: white solid 4px; border-radius: 17px 17px 17px 17px; margin-right: 40px;
-            box-shadow: 0 0 15px #cccccc; margin-top: 25px; margin-left: 40px;}
+            #framephotoandtext7 {display: flex; overflow: hidden; border: white solid 4px; border-radius: 17px 17px 17px 17px; 
+                margin-right: 40px; box-shadow: 0 0 15px #cccccc; margin-top: 25px; margin-left: 40px;}
 
             #photo7 {width: 225px; position: relative; right: 45px; bottom: 5px;}
 
         /* Styles sur la deuxième image */
 
-            #framephotoandtext8 {display: flex; overflow: hidden; border: white solid 4px; border-radius: 17px 17px 17px 17px; margin-right: 40px;
-            box-shadow: 0 0 15px #cccccc; margin-top: 31px; margin-left: 40px;}
+            #framephotoandtext8 {display: flex; overflow: hidden; border: white solid 4px; border-radius: 17px 17px 17px 17px; 
+                margin-right: 40px; box-shadow: 0 0 15px #cccccc; margin-top: 31px; margin-left: 40px;}
 
             #photo8 {width: 198px; position: relative; right: 36px; bottom: 4px;}
 
@@ -181,6 +191,9 @@
 
     .frametextactivities {font-weight: bold; height: 20px; padding-left: 15px; font-size: 0.9em; padding-top: 15px; padding-bottom: 10px;}
 
+    .framephotoandtextact1and4:hover, #framephotoandtextact2:hover, #framephotoandtextact3:hover, #framephotoandtextact5:hover,
+        #framephotoandtextact6:hover {box-shadow: 0 0 20px #0065FC;}
+
     /* Styles sur la première et quatrième image */
 
         #photoactivity1 {width: 640px; position: relative; right: 176px;}
@@ -189,7 +202,8 @@
 
         .framephotoact1and4 {overflow: hidden; width: 290px; height: 380px;}
 
-        .framephotoandtextact1and4 {overflow: hidden; border-radius: 17px; box-shadow: 0 0 7px #cccccc; margin-right: 50px; margin-bottom: 80px;}
+        .framephotoandtextact1and4 {overflow: hidden; border-radius: 17px; box-shadow: 0 0 7px #cccccc; margin-right: 50px;
+            margin-bottom: 80px;}
 
     /* Styles sur la deuxième et troisième image */
 
@@ -223,7 +237,8 @@
 
     footer {display: flex; min-width: 1340px; height: 175px; background-color: #f2f2f2;}
 
-    .footercolumns {display: flex; flex-direction: column; margin-right: 200px; margin-top: 25px; margin-left: 2%; line-height: 1.8em; font-size: 0.9em; font-weight: 500;}
+    .footercolumns {display: flex; flex-direction: column; margin-right: 200px; margin-top: 25px; margin-left: 2%; line-height: 1.8em;
+    font-size: 0.9em; font-weight: 500;}
 
     .footertitles {font-weight: bold; line-height: 3em; font-size: 1em;}
 
