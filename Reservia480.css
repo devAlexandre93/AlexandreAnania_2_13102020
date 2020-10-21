@@ -50,19 +50,19 @@ nav {margin-left: 0px; max-width: 375px; min-width: 375px; height: 60px; margin-
 
         .fa-money-bill-wave {position: absolute; top: 339px; left: 24px; z-index: 2;}
 
-        #economic {position: relative; top: 42px; right: 25px;}
+        #economic {position: relative; top: 43.5px; right: 25px;}
 
         .fa-child {position: absolute; top: 339px; left: 203px; z-index: 2;}
 
-        #family {position: relative; top: 42px; left: 8px;}
+        #family {position: relative; top: 43.5px; left: 8px;}
 
         .fa-heart {position: absolute; top: 392px; left: 24px; z-index: 2;}
 
-        #romantic {position: relative; top: 48px; left: 23px;}
+        #romantic {position: relative; top: 49.5px; left: 23px;}
 
         .fa-dog {position: absolute; top: 445px; left: 24px; z-index: 2;}
 
-        #animals {position: relative; top: 101px; right: 121px;; display: inline-block;}
+        #animals {position: relative; top: 102.5px; right: 121px;; display: inline-block;}
 
         .fa-info {margin-top: 95px;}
 
