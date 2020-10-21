@@ -1,38 +1,36 @@
-/* Suppression de la marge par défaut */
+/* Suppression des marges par défaut */
 
-body {margin-left: 0px;}
+body {margin : 0 0 0 0;}
 
 /* Styles sur le nav */
 
-nav {margin-left: 0px; max-width: 375px; height: 60px; margin-bottom: 75px;}
+nav {margin-left: 0px; max-width: 375px; min-width: 375px; height: 60px; margin-bottom: 85px;}
 
-#logo {width: 95px; left: 3%; top: 20px}
+#logo {width: 95px; left: 27px; top: 20px}
 
 #navbuttons {display: block;}
 
-#subscribe {position: absolute; top: 10px; left: 295px;}
+#subscribe {position: absolute; top: 10px; left: 290px;}
 
-#accomodationnav {width: 188px; text-align: center; position: absolute; top: 85px; border-bottom: #f2f2f2 2px solid; margin: 0 0 0 0;
+#accomodationnav {width: 186px; text-align: center; position: absolute; top: 85px; border-bottom: #f2f2f2 2px solid; margin: 0 0 0 0;
      padding: 0 0 10px 0;}
 
-#activities {width: 188px; text-align: center; position: absolute; top: 85px; left: 187.5px; border-bottom: #f2f2f2 2px solid; 
+#activities {width: 187px; text-align: center; position: absolute; top: 85px; left: 187.5px; border-bottom: #f2f2f2 2px solid; 
     margin: 0 0 0 0; padding: 0 0 10px 0;}
 
 #accomodationnav:hover, #activities:hover {border-top: none; border-bottom: #0065FC solid 2px; padding-bottom: 12px;}
 
 /* Styles sur section1 */
 
-    #section1 {max-width: 300px;}
+    #section1 {max-width: 300px; margin-left: 25px; margin-bottom: 0px;}
 
     /* Styles sur la zone de recherche */
 
-        #titleandcatchysentence {max-width: 280px; min-width: 280px;}
+        #titleandcatchysentence {max-width: 280px; min-width: 280px; margin-bottom: 25px;}
 
         #maintitle {display: inline; line-height: 1.2em;}
 
         #catchysentence {display: block; font-size: 0.95em; margin-top: 10px;}
-
-        #searcharea {margin-top: -5px;}
 
         input {width: 220px;}
 
@@ -40,7 +38,7 @@ nav {margin-left: 0px; max-width: 375px; height: 60px; margin-bottom: 75px;}
 
         .fa-search {color: white; position: relative; top: 15px; right: 41px; font-size: 0.8em; font-weight: 400;}
 
-        button:hover {color: transparent;}
+        button:hover {color: transparent; background: #0065FC; border: 1px solid #0065FC}
 
         .fa-search:hover {color: black;}
 
@@ -48,23 +46,23 @@ nav {margin-left: 0px; max-width: 375px; height: 60px; margin-bottom: 75px;}
 
     /* Styles sur la zone de filtre + point info*/    
 
-        #filtersarea {margin-top: 20px; min-width: 375px; max-width: 375px;}
+        #filtersarea {margin-top: 25px; min-width: 328px; max-width: 328px;}
 
-        .fa-money-bill-wave {position: absolute; top: 342px; left: 18px; z-index: 2;}
+        .fa-money-bill-wave {position: absolute; top: 339px; left: 24px; z-index: 2;}
 
-        #economic {position: relative; top: 44px; right: 26px;}
+        #economic {position: relative; top: 42px; right: 25px;}
 
-        .fa-child {position: absolute; top: 342px; left: 197px; z-index: 2;}
+        .fa-child {position: absolute; top: 339px; left: 203px; z-index: 2;}
 
-        #family {position: relative; top: 44px; left: 9px;}
+        #family {position: relative; top: 42px; left: 8px;}
 
-        .fa-heart {position: absolute; top: 395px; left: 18px; z-index: 2;}
+        .fa-heart {position: absolute; top: 392px; left: 24px; z-index: 2;}
 
-        #romantic {position: relative; top: 50px; left: 22px;}
+        #romantic {position: relative; top: 48px; left: 23px;}
 
-        .fa-dog {position: absolute; top: 448px; left: 18px; z-index: 2;}
+        .fa-dog {position: absolute; top: 445px; left: 24px; z-index: 2;}
 
-        #animals {position: relative; top: 103px; right: 121px;; display: inline-block;}
+        #animals {position: relative; top: 101px; right: 121px;; display: inline-block;}
 
         .fa-info {margin-top: 95px;}
 
@@ -171,6 +169,6 @@ nav {margin-left: 0px; max-width: 375px; height: 60px; margin-bottom: 75px;}
 
 /* Styles sur le footer */
 
-    footer {flex-direction: column; min-width: 375px; max-width: 375px; height: 460px;}
+    footer {flex-direction: column; min-width: 375px; max-width: 375px; height: 490px;}
 
     .footercolumns {margin-left: 20px; margin-right: 0px; margin-top: 25px;}

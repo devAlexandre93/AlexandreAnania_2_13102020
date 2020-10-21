@@ -31,9 +31,9 @@
 
     /* Styles sur la zone de recherche */
 
-        #section1 {margin-right: 2%; margin-left: 2%;}
+        #section1 {margin-right: 2%; margin-left: 2%; margin-bottom: 20px;}
 
-        #titleandcatchysentence {min-width: 550px;}
+        #titleandcatchysentence {min-width: 550px; margin-bottom: 15px;}
 
         #maintitle {line-height: 0.1em;}
 
