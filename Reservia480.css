@@ -48,7 +48,7 @@ nav {margin-left: 0px; max-width: 375px; min-width: 375px; height: 60px; margin-
 
         #filtersarea {margin-top: 25px; min-width: 328px; max-width: 328px;}
 
-        .fa-money-bill-wave {position: absolute; top: 340px; left: 24px; z-index: 2;}
+        .fa-money-bill-wave {position: absolute; top: 339px; left: 24px; z-index: 2;}
 
         #economic {position: relative; top: 42px; right: 25px;}
 
@@ -169,6 +169,6 @@ nav {margin-left: 0px; max-width: 375px; min-width: 375px; height: 60px; margin-
 
 /* Styles sur le footer */
 
-    footer {flex-direction: column; min-width: 375px; max-width: 375px; height: 470px;}
+    footer {flex-direction: column; min-width: 375px; max-width: 375px; height: 460px;}
 
     .footercolumns {margin-left: 20px; margin-right: 0px; margin-top: 25px;}
