@@ -8,7 +8,7 @@
     
 /* Styles sur le nav */
 
-    nav {margin-bottom: 70px; margin-right: 2%; margin-left: 2%; min-width: 550px;}
+    nav {margin-bottom: 70px; margin-right: 2%; margin-left: 2%; min-width: 1300px;}
 
     #logo {width: 85px; position: absolute; top: 30px;}
 
@@ -52,7 +52,7 @@
 
         .fa-search {color: transparent;}   
 
-        button:hover {color: #0065FC; background: white; border: 1px solid #f2f2f2;}
+        button:hover {color: #0065FC; background: white; border: 1px solid #f2f2f2; transition: 1s}
 
         input:focus, button:focus {outline: none;}
 
@@ -76,7 +76,7 @@
                 padding: 14px 17px; position: relative; left: 24px;}
 
         #economic:hover, #family:hover, #romantic:hover, #animals:hover {background-color: #0065FC; color: white;
-             border-bottom: 2.5px solid #0065FC; border-top: 2.5px solid #0065FC; border-right: 3px solid #0065FC;}
+             border-bottom: 2.5px solid #0065FC; border-top: 2.5px solid #0065FC; border-right: 3px solid #0065FC; transition: 1s;}
 
         .fa-info {font-size: 10px; color: #0065FC; border: solid 2px #f2f2f2; border-radius: 100%; padding: 4px 7px;}
 
@@ -112,7 +112,7 @@
             padding-top: 5px;}
 
         #framephotoandtext1:hover, #framephotoandtext2:hover, #framephotoandtext3:hover, #framephotoandtext4:hover, #framephotoandtext5:hover,
-         #framephotoandtext6:hover {box-shadow: 0 0 20px black;}
+         #framephotoandtext6:hover {box-shadow: 0 0 20px black; transition: 1s;}
 
         /* Styles sur la première et quatrième image */
 
@@ -145,9 +145,11 @@
 
         #popular {background-color: #f2f2f2; height: 610px; border-radius: 15px; margin-top: 10px; min-width: 418px;}
 
-        #titlepopular {font-weight: bold; font-size: 1.3em; margin-left: 35px; margin-top: 35px;}
+        #titlepopularandchartline {margin-left: 35px; margin-top: 35px; margin-bottom: 25px}
+
+        #titlepopular {display: inline;}
         
-        .fa-chart-line {font-weight: bold; font-size: 1.3em; margin-top: 39px; margin-left: 115px;}
+        .fa-chart-line {font-weight: bold; font-size: 1.3em; margin-left: 32%;}
 
         #linephotos3 {display: flex; flex-direction: column;}
 
@@ -158,12 +160,12 @@
 
         .popularnight {margin-bottom: 24px;}
 
-        #framephotoandtext7:hover, #framephotoandtext8:hover, #framephotoandtext9:hover {box-shadow: 0 0 20px black;}
+        #framephotoandtext7:hover, #framephotoandtext8:hover, #framephotoandtext9:hover {box-shadow: 0 0 20px black;  transition: 1s;}
 
         /* Styles sur la première image */
 
             #framephotoandtext7 {display: flex; overflow: hidden; border: white solid 4px; border-radius: 17px 17px 17px 17px; 
-                margin-right: 40px; box-shadow: 0 0 15px #cccccc; margin-top: 25px; margin-left: 40px;}
+                margin-right: 40px; box-shadow: 0 0 15px #cccccc; margin-left: 40px;}
 
             #photo7 {width: 225px; position: relative; right: 45px; bottom: 5px;}
 
@@ -192,7 +194,7 @@
     .frametextactivities {font-weight: bold; height: 20px; padding-left: 15px; font-size: 0.9em; padding-top: 15px; padding-bottom: 10px;}
 
     .framephotoandtextact1and4:hover, #framephotoandtextact2:hover, #framephotoandtextact3:hover, #framephotoandtextact5:hover,
-        #framephotoandtextact6:hover {box-shadow: 0 0 20px #0065FC;}
+        #framephotoandtextact6:hover {box-shadow: 0 0 20px #0065FC;  transition: 1s;}
 
     /* Styles sur la première et quatrième image */
 

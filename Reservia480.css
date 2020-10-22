@@ -4,39 +4,39 @@ body {margin : 0 0 0 0;}
 
 /* Styles sur le nav */
 
-nav {margin-left: 0px; max-width: 375px; min-width: 375px; height: 60px; margin-bottom: 85px;}
+nav {margin-left: 0px; min-width: 320px; max-width: 480px; height: 60px; margin-bottom: 85px;}
 
-#logo {width: 95px; left: 27px; top: 20px}
+#logo {width: 95px; top: 20px; ; left: 8%;}
 
 #navbuttons {display: block;}
 
-#subscribe {position: absolute; top: 10px; left: 290px;}
+#subscribe {position: absolute; top: 10px; right: 6%;}
 
-#accomodationnav {width: 186px; text-align: center; position: absolute; top: 85px; border-bottom: #f2f2f2 2px solid; margin: 0 0 0 0;
-     padding: 0 0 10px 0;}
+#accomodationnav {min-width: 50%; text-align: center; position: absolute; top: 85px; border-bottom: #f2f2f2 2px solid;
+     margin: 0 0 0 0; padding: 0 0 10px 0;}
 
-#activities {width: 187px; text-align: center; position: absolute; top: 85px; left: 187.5px; border-bottom: #f2f2f2 2px solid; 
-    margin: 0 0 0 0; padding: 0 0 10px 0;}
+#activities {min-width: 50%; text-align: center; position: absolute; top: 85px; left: 50%; 
+    border-bottom: #f2f2f2 2px solid; margin: 0 0 0 0; padding: 0 0 10px 0;}
 
 #accomodationnav:hover, #activities:hover {border-top: none; border-bottom: #0065FC solid 2px; padding-bottom: 12px;}
 
 /* Styles sur section1 */
 
-    #section1 {max-width: 300px; margin-left: 25px; margin-bottom: 0px;}
+    #section1 {min-width: 92%; margin-left: 8%; margin-right: 0px; margin-bottom: 0px; overflow: hidden;}
 
     /* Styles sur la zone de recherche */
 
-        #titleandcatchysentence {max-width: 280px; min-width: 280px; margin-bottom: 25px;}
+        #titleandcatchysentence {max-width: 95%; min-width: 95%; margin-bottom: 25px;}
 
         #maintitle {display: inline; line-height: 1.2em;}
 
         #catchysentence {display: block; font-size: 0.95em; margin-top: 10px;}
 
-        input {width: 220px;}
+        input {min-width: 230px;}
 
-        button {color: transparent; border-radius: 13px 13px 13px 13px; width: 42px; position: relative; right: 13px;}
+        button {color: transparent; border-radius: 13px 13px 13px 13px; width: 42px; position: relative; right: 15px;}
 
-        .fa-search {color: white; position: relative; top: 15px; right: 41px; font-size: 0.8em; font-weight: 400;}
+        .fa-search {color: white; position: relative; top: 15px; right: 43px; font-size: 0.8em; font-weight: 400;}
 
         button:hover {color: transparent; background: #0065FC; border: 1px solid #0065FC}
 
@@ -46,92 +46,98 @@ nav {margin-left: 0px; max-width: 375px; min-width: 375px; height: 60px; margin-
 
     /* Styles sur la zone de filtre + point info*/    
 
-        #filtersarea {margin-top: 25px; min-width: 328px; max-width: 328px;}
+        #filtersarea {margin-top: 25px; min-width: 100%; max-width: 100%; height: 80px;}
 
         .fa-money-bill-wave {position: absolute; top: 339px; left: 24px; z-index: 2;}
 
-        #economic {position: relative; top: 42.5px; right: 25px;}
+        #economic {position: absolute; top: 324px; left: 46px;}
 
-        .fa-child {position: absolute; top: 339px; left: 203px; z-index: 2;}
+        .fa-child {position: absolute; top: 339px; left: 212px; z-index: 2;}
 
-        #family {position: relative; top: 42.5px; left: 8px;}
+        #family {position: absolute; top: 324px; left: 236px;}
 
         .fa-heart {position: absolute; top: 392px; left: 24px; z-index: 2;}
 
-        #romantic {position: relative; top: 47.5px; left: 23px;}
+        #romantic {position: absolute; top: 377px; left: 46px;}
 
         .fa-dog {position: absolute; top: 445px; left: 24px; z-index: 2;}
 
-        #animals {position: relative; top: 100.5px; right: 121px;; display: inline-block;}
+        #animals {position: absolute; top: 430px; left: 46px; display: inline-block;}
 
         .fa-info {margin-top: 95px;}
 
-        #info {display: block; position: relative; bottom: 19px; left: 30px; width: 280px;}
+        #info {display: block; position: relative; bottom: 19px; min-width: 75%; max-width: 75%; margin-left: 33px;}
 
 /* Styles sur section2 */
 
-    #section2 {display: flex; flex-direction: column-reverse; width: 375px; margin-left: 0px; margin-right: 0px;}
+    #section2 {display: flex; flex-direction: column-reverse; min-width: 320px; max-width: 480px; margin-left: 0px; margin-right: 0px;}
 
     /* Styles sur l'article Hébergements */
 
         #accomodationarticle {background-color: white; height: 1320px; margin-right: 0px; margin-top: 0px;
         margin-bottom: 35px; border-radius: 0 0 0 0;}  
 
-        #accomodationtitle {margin-left: 20px; margin-top: 25px; margin-bottom: 20px;}
+        #accomodationtitle {margin-left: 5%; margin-top: 25px; margin-bottom: 20px;}
 
         #linephotos1 {display: flex; flex-direction: column; margin-bottom: 0px}
 
         #linephotos2 {display: flex; flex-direction: column; margin-bottom: 0px} 
 
-        .framephoto {overflow: hidden; height: 115px; width: 360px;}
+        .framephoto {overflow: hidden; height: 120px; width: 100%;}
 
-        #framephotoandtext1, #framephotoandtext4 {margin-left: 20px; margin-right: 20px; margin-bottom: 11px;}
+        #framephotoandtext1, #framephotoandtext4 {margin-left: 6%; margin-right: 6%; margin-bottom: 11px;}
 
-        #photo1 {width: 355px; position: relative; bottom: 55px; right: 28px;}
+        #photo1 {width: 435px; position: relative; bottom: 110px; right: 20px;}
 
-        #photo4 {width: 340px; position: relative; bottom: 102px; right: 13px;}
+        #photo4 {width: 435px; position: relative; bottom: 180px; right: 20px;}
 
-        #framephotoandtext2, #framephotoandtext5 {margin-left: 20px; margin-right: 20px; margin-bottom: 11px;}
+        #framephotoandtext2, #framephotoandtext5 {margin-left: 6%; margin-right: 6%; margin-bottom: 11px;}
 
-        #photo2 {width: 345px; position: relative; bottom: 60px; right: 15px;}
+        #photo2 {width: 435px; position: relative; bottom: 105px; right: 20px;}
 
-        #photo5 {width: 345px; position: relative; right: 10px; bottom: 50px;}
+        #photo5 {width: 435px; position: relative; right: 20px; bottom: 70px;}
 
-        #framephotoandtext3, #framephotoandtext6 {margin-left: 20px; margin-right: 20px; margin-bottom: 11px;}
+        #framephotoandtext3, #framephotoandtext6 {margin-left: 6%; margin-right: 6%; margin-bottom: 11px;}
         
-        #photo3 {width: 340px; position: relative; bottom: 56px; right: 6px;}
+        #photo3 {width: 435px; position: relative; bottom: 100px; right: 20px;}
 
-        #photo6 {width: 335px; position: relative; bottom: 194px; right: 2px;}
+        #photo6 {width: 435px; position: relative; bottom: 290px; right: 20px;}
 
-        #more {display: block; margin-top: 20px; margin-left: 20px;}
+        #more {display: block; margin-top: 20px; margin-left: 5%;}
 
     /* Styles sur l'aside Les plus populaires */
 
-        #popular {background-color: #f2f2f2; min-width: 375px; max-width: 375px; border-radius: 0; height: 575px;}
+        #popular {background-color: #f2f2f2; min-width: 320px; max-width: 480px; border-radius: 0; height: 575px; margin-bottom: 15px;}
 
-        #titlepopular {margin-left: 20px; margin-top: 25px;}
+        #titlepopularandchartline {margin-left: 5%; margin-top: 25px; margin-bottom: 20px;}
 
-        .frametext2 {line-height: 1.2em; height: 132px; width: 218px; font-size: 0.9em;}
+        .frametext2 {line-height: 1.2em; height: 132px; width: 218px; font-size: 0.8em;}
 
         .hostelnames2 {position: relative; top: 10px;}
 
-        .popularnight {position: relative; top: 18px; margin-bottom: 40px;}
+        .popularnight {position: relative; top: 18px; margin-bottom: 50px;}
 
         .fa-star {font-size: 11px;}
 
-        .framephotopopular {height: 137px; width: 165px;}   
+        .framephotopopular {height: 137px; width: 55%;}   
 
-        #framephotoandtext7 {margin-right: 20px; margin-top: 20px; margin-left: 20px;}
+        #framephotoandtext7 {margin-right: 6%; margin-left: 6%;}
 
-        #framephotoandtext8 { margin-right: 20px; margin-top: 11px; margin-left: 20px;}
+        #photo7 {width: 251px; position: relative; right: 50px; bottom: 5px;}
 
-        #framephotoandtext9 {margin-right: 20px; margin-top: 11px; margin-left: 20px;}
+        #framephotoandtext8 { margin-right: 6%; margin-top: 11px; margin-left: 6%;}
+
+        #photo8 {width: 256px; position: relative; right: 55px; bottom: 34px;}
+
+        #framephotoandtext9 {margin-right: 6%; margin-top: 11px; margin-left: 6%;}
+
+        #photo9 {width: 217px; position: relative; right: 16px; bottom: 130px;}
 
 /* Styles sur la section Activités */
 
-    #section3 {height: 1290px; min-width: 375px; max-width: 375px; margin-bottom: 25px; margin-left: 0px; margin-right: 0px}
+    #section3 {height: 1290px; min-width: 320px; max-width: 480px; margin-bottom: 25px; margin-left: 0px; margin-right: 0px; margin-top: 55px;}
 
-    #activitiestitle {margin-left: 20px;}
+    #activitiestitle {margin-left: 5%; max-width: 200px; margin-right: 0px;}
 
     #activitiesphotos {display: flex; flex-direction: column;}
 
@@ -139,36 +145,113 @@ nav {margin-left: 0px; max-width: 375px; min-width: 375px; height: 60px; margin-
 
     #photoactivity4 {width: 335px; position: relative; right: 0px; bottom: 15px;}
 
-    .framephotoact1and4 {width: 360px; height: 138px;}
+    .framephotoact1and4 {width: 100%; height: 138px;}
 
-    .framephotoandtextact1and4 {margin-right: 20px; margin-left: 20px; margin-bottom: 25px;}
+    .framephotoandtextact1and4 {margin-right: 6%; margin-left: 6%; margin-bottom: 25px;}
    
     #photoactivity2 {width: 335px; position: relative; bottom: 155px;}
 
-    #framephotoact2 {width: 360px; height: 138px;}
+    #framephotoact2 {width: 100%; height: 138px;}
 
-    #framephotoandtextact2 {margin-right: 20px; margin-left: 20px; margin-bottom: 25px;}
+    #framephotoandtextact2 {margin-right: 6%; margin-left: 6%; margin-bottom: 25px;}
 
     #photoactivity3 {width: 335px; position: relative; bottom: 14px;}
 
-    #framephotoact3 {width: 360px; height: 138px;}
+    #framephotoact3 {width: 100%; height: 138px;}
 
-    #framephotoandtextact3 {margin-right: 20px; margin-left: 20px; margin-bottom: 25px;}
+    #framephotoandtextact3 {margin-right: 6%; margin-left: 6%; margin-bottom: 25px;}
 
     #photoactivity5 {width: 335px; position: relative; bottom: 11px;}
 
-    #framephotoact5 {width: 360px; height: 138px;}
+    #framephotoact5 {width: 100%; height: 138px;}
 
-    #framephotoandtextact5 {margin-right: 20px; margin-left: 20px; margin-bottom: 25px;}
+    #framephotoandtextact5 {margin-right: 6%; margin-left: 6%; margin-bottom: 25px;}
 
     #photoactivity6 {width: 335px; position: relative; bottom: 28px;}
 
-    #framephotoact6 {width: 360px; height: 138px;}
+    #framephotoact6 {width: 100%; height: 138px;}
 
-    #framephotoandtextact6 {margin-right: 20px; margin-left: 20px; margin-bottom: 25px;}
+    #framephotoandtextact6 {margin-right: 6%; margin-left: 6%; margin-bottom: 25px;}
 
 /* Styles sur le footer */
 
-    footer {flex-direction: column; min-width: 375px; max-width: 375px; height: 455px;}
+    footer {flex-direction: column; min-width: 320px; max-width: 480px; height: 455px;}
 
-    .footercolumns {margin-left: 20px; margin-right: 0px; margin-top: 25px;}
+    .footercolumns {margin-left: 5%; margin-right: 0px; margin-top: 25px;}
+
+
+/* Media query bonus */
+
+
+    /* Style pour le input en max 350px */    
+
+        @media all and (max-device-width: 350px) {
+
+            input {min-width: 200px;}
+
+        }    
+
+    /* Styles pour les filtres en max 365px */    
+
+        @media all and (max-device-width: 365px) {
+
+            #filtersarea {height: 130px;}
+
+            .fa-child {position: absolute; top: 392px; left: 24px; z-index: 2;}
+
+            #family {position: absolute; top: 377px; left: 46px;}
+
+            .fa-heart {position: absolute; top: 445px; left: 24px; z-index: 2;}
+
+            #romantic {position: absolute; top: 430px; left: 46px;}
+
+            .fa-dog {position: absolute; top: 498px; left: 24px; z-index: 2;}
+
+            #animals {position: absolute; top: 483px; left: 46px; display: inline-block;}
+
+        }
+
+/* Styles pour les filtres en min 430px */       
+
+    @media all and (min-device-width: 430px) {
+
+        #filtersarea {height: 25px;} 
+
+        .fa-dog {position: absolute; top: 392px; left: 212px; z-index: 2;}
+
+        #animals {position: absolute; top: 377px; left: 236px; display: inline-block;}
+
+    }
+
+/* Styles pour l'icône chart-line en fonction de la résolution */   
+
+    @media all and (max-device-width: 369px) {
+
+        .fa-chart-line {margin-left: 25%;}
+
+    }
+
+    @media all and (max-device-width: 332px) {
+
+        .fa-chart-line {margin-left: 20%;}
+
+    }
+
+/* Styles pour les photos de la section Activités en min 380px */
+
+    @media all and (min-device-width: 380px) {
+
+        #photoactivity1 {width: 425px; position: relative; right: 0px; bottom: 60px;}
+
+        #photoactivity2 {width: 425px; position: relative; bottom: 235px;}
+
+        #photoactivity3 {width: 425px; position: relative; bottom: 54px;}
+
+        #photoactivity4 {width: 425px; position: relative; bottom: 55px;}
+
+        #photoactivity5 {width: 425px; position: relative; bottom: 20px;}
+
+        #photoactivity6 {width: 425px; position: relative; bottom: 65px;}
+
+    }
+
