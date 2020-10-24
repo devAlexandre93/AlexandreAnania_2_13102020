@@ -5,10 +5,14 @@
 /* Annulation des styles des liens */
 
     a {text-decoration: none; color: black ;}
+
+/* Styles sur h1 */
+
+h1 {font-weight: bold; font-size: 1.3em;}    
     
 /* Styles sur le nav */
 
-    nav {margin-bottom: 70px; margin-right: 2%; margin-left: 2%; min-width: 1300px;}
+    nav {margin-bottom: 70px; margin-right: 2%; margin-left: 2%; min-width: 1250px; max-width: 1350px;}
 
     #logo {width: 85px; position: absolute; top: 30px;}
 
@@ -23,15 +27,11 @@
     #subscribe {font-size: 0.9em; font-weight: bold; color: #0065FC; margin-top: 27px}
     #subscribe:hover {color: black}
 
-/* Styles sur h1 */
-
-    h1 {font-weight: bold; font-size: 1.3em;}
-
 /* Styles sur section1 */
 
-    /* Styles sur la zone de recherche */
+    #section1 {margin-right: 2%; margin-left: 2%; margin-bottom: 20px;}
 
-        #section1 {margin-right: 2%; margin-left: 2%; margin-bottom: 20px;}
+    /* Styles sur la zone de recherche */
 
         #titleandcatchysentence {min-width: 550px; margin-bottom: 15px;}
 
@@ -189,7 +189,7 @@
 
     #activitiestitle {margin-bottom: 22px;}
 
-    #activitiesphotos {display: flex}
+    #activitiesphotos {display: flex;}
 
     .frametextactivities {font-weight: bold; height: 20px; padding-left: 15px; font-size: 0.9em; padding-top: 15px; padding-bottom: 10px;}
 

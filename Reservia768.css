@@ -1,0 +1,109 @@
+/* Styles sur le nav */
+
+    nav {min-width: 481px; max-width: 768px;}
+
+
+/* Styles sur section1 */
+
+    #section1 {min-width: 481px; max-width: 768px;}
+
+    /* Styles sur la zone de recherche */
+
+   
+
+    /* Styles sur la zone de filtre + point info*/   
+
+        #filtersarea {min-width: 481px; max-width: 768px; height: 100px;}
+
+        .fa-heart {position: absolute; top: 304px; left: 94px; z-index: 2;}
+
+        #romantic {position: absolute; left: 119px; top: 289px;}
+
+        .fa-dog {position: absolute; top: 304px; left: 288px; z-index: 2;}
+
+        #animals {position: absolute; top: 289px; left: 314px;}
+
+
+/* Styles sur section2 */
+
+    #section2 {min-width: 481px; max-width: 768px; flex-direction: column-reverse;}
+
+    /* Styles sur l'article Hébergements */
+
+        #accomodationarticle {min-width: 100%; max-width: 100%; height: 825px;}  
+
+        #accomodationphotos {display: flex;}  
+
+        .frametext {width: 100%;}
+
+        .framephoto {overflow: hidden; height: 120px; width: 100%;}
+
+        #linephotos1 {flex-direction: column; min-width: 50%; max-width: 50%; margin-bottom: 20px;}
+
+        #linephotos2 {flex-direction: column; min-width: 50%; max-width: 50%; margin-bottom: 20px;}
+
+        #framephotoandtext1, #framephotoandtext2, #framephotoandtext3 {margin-left: 6%; margin-right: 6%; margin-bottom: 25px;}
+
+        #framephotoandtext4, #framephotoandtext5, #framephotoandtext6 {margin-left: 0px; margin-right: 6%; margin-bottom: 25px;}
+
+        #photo1 {width: 340px; bottom: 55px;}
+
+        #photo2 {width: 340px; bottom: 75px;}
+
+        #photo3 {width: 340px; bottom: 75px;}
+
+        #photo4 {width: 340px; bottom: 120px;}
+
+        #photo5 {width: 340px; bottom: 30px;}
+
+        #photo6 {width: 340px; bottom: 210px;}
+
+    /* Styles sur l'aside Les plus populaires */
+
+        #popular {min-width: 100%; max-width: 100%; height: 430px; margin-bottom: 25px;}
+
+        #linephotos3 {flex-direction: row; height : 310px; align-items: flex-start;} 
+
+        .fa-chart-line {margin-left: 14%; color: transparent;}
+
+        #framephotoandtext7 {margin-right: 0px; margin-left: 6%;}
+
+        #framephotoandtext8 {align-self: flex-end; margin-left: -20%; margin-right: -20%;}
+
+        #framephotoandtext9 {margin-right: 6%; margin-left: 0px; margin-top: 0px;}
+
+/* Styles sur la section Activités */
+
+    #section3 {min-width: 481px; max-width: 768px; height: 960px;}
+
+    #activitiesphotos {min-width: 481px; max-width: 768px; flex-wrap: wrap; justify-content: center;}
+
+    .activitiesinline {width: 48%;}
+
+    .framephotoact1and4, #framephotoact2, #framephotoact3, #framephotoact5, #framephotoact6 {width: 100%}
+
+    .framephotoandtextact1and4 {width: 48%; margin-right: 4%; margin-bottom: 25px}
+
+    #framephotoandtextact2 {margin-bottom: 42px; margin-right: 0px}
+
+    #framephotoandtextact3 {margin-bottom: 0px; margin-right: 0px}
+
+    #framephotoandtextact6 {margin-bottom: 0px;}
+
+    #photoactivity1 {width: 580px; right: 70px;}
+
+    #photoactivity2 {width: 348px; bottom: 150px;}
+
+    #photoactivity3 {width: 348px; bottom: 40px;}
+
+    #photoactivity4 {width: 680px;}
+
+    #photoactivity5 {width: 348px; bottom: 40px;}
+
+    #photoactivity6 {width: 348px; bottom: 40px;}
+
+/* Styles sur le footer */
+
+    footer {min-width: 481px; max-width: 768px;}
+
+    .footercolumns {margin-right: 8%; margin-left: 2%;}

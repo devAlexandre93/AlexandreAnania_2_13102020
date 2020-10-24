@@ -185,7 +185,7 @@ nav {margin-left: 0px; min-width: 320px; max-width: 480px; height: 60px; margin-
 
     /* Style pour le input en max 350px */    
 
-        @media all and (max-device-width: 350px) {
+        @media all and (max-width: 350px) {
 
             input {min-width: 200px;}
 
@@ -193,7 +193,7 @@ nav {margin-left: 0px; min-width: 320px; max-width: 480px; height: 60px; margin-
 
     /* Styles pour les filtres en max 365px */    
 
-        @media all and (max-device-width: 365px) {
+        @media all and (max-width: 365px) {
 
             #filtersarea {height: 130px;}
 
@@ -213,7 +213,7 @@ nav {margin-left: 0px; min-width: 320px; max-width: 480px; height: 60px; margin-
 
 /* Styles pour les filtres en min 430px */       
 
-    @media all and (min-device-width: 430px) {
+    @media all and (min-width: 430px) {
 
         #filtersarea {height: 25px;} 
 
@@ -225,13 +225,13 @@ nav {margin-left: 0px; min-width: 320px; max-width: 480px; height: 60px; margin-
 
 /* Styles pour l'icône chart-line en fonction de la résolution */   
 
-    @media all and (max-device-width: 369px) {
+    @media all and (max-width: 369px) {
 
         .fa-chart-line {margin-left: 25%;}
 
     }
 
-    @media all and (max-device-width: 332px) {
+    @media all and (max-width: 332px) {
 
         .fa-chart-line {margin-left: 20%;}
 
@@ -239,7 +239,7 @@ nav {margin-left: 0px; min-width: 320px; max-width: 480px; height: 60px; margin-
 
 /* Styles pour les photos de la section Activités en min 380px */
 
-    @media all and (min-device-width: 380px) {
+    @media all and (min-width: 380px) {
 
         #photoactivity1 {width: 425px; position: relative; right: 0px; bottom: 60px;}
 
