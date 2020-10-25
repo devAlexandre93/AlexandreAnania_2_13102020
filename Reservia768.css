@@ -2,31 +2,26 @@
 
     nav {min-width: 481px; max-width: 768px;}
 
-
 /* Styles sur section1 */
 
-    #section1 {min-width: 481px; max-width: 768px;}
-
-    /* Styles sur la zone de recherche */
-
-   
+    #section1 {min-width: 481px; max-width: 768px; overflow: hidden;}
 
     /* Styles sur la zone de filtre + point info*/   
 
         #filtersarea {min-width: 481px; max-width: 768px; height: 100px;}
 
-        .fa-heart {position: absolute; top: 304px; left: 94px; z-index: 2;}
+        .fa-heart {position: absolute; top: 324px; left: 94px; z-index: 2;}
 
-        #romantic {position: absolute; left: 119px; top: 289px;}
+        #romantic {position: absolute; left: 119px; top: 309px;}
 
-        .fa-dog {position: absolute; top: 304px; left: 288px; z-index: 2;}
+        .fa-dog {position: absolute; top: 324px; left: 288px; z-index: 2;}
 
-        #animals {position: absolute; top: 289px; left: 314px;}
+        #animals {position: absolute; top: 309px; left: 314px;}
 
 
 /* Styles sur section2 */
 
-    #section2 {min-width: 481px; max-width: 768px; flex-direction: column-reverse;}
+    #section2 {min-width: 481px; max-width: 768px; flex-direction: column-reverse; margin-left: 2%; margin-right: 2%;}
 
     /* Styles sur l'article Hébergements */
 
@@ -98,7 +93,7 @@
 
     #photoactivity4 {width: 680px;}
 
-    #photoactivity5 {width: 348px; bottom: 40px;}
+    #photoactivity5 {width: 348px;}
 
     #photoactivity6 {width: 348px; bottom: 40px;}
 
@@ -107,3 +102,136 @@
     footer {min-width: 481px; max-width: 768px;}
 
     .footercolumns {margin-right: 8%; margin-left: 2%;}
+
+/* Media query bonus */
+
+    /* Styles sur le nav entre 481px et 600px  */  
+
+        @media all and (min-width: 481px) and (max-width: 600px) {
+
+            nav {min-width: 481px; max-width: 600px;}
+
+            #accomodationnav {margin-left: 28px; margin-right: 28px;} 
+
+            #activities {margin-right: 28px;}
+
+            #subscribe {margin-right: 10px;}
+
+        }
+
+
+    /* Styles sur la zone de recherche et sur la zone de filtres entre 481px et 590px  */    
+
+        @media all and (min-width: 481px) and (max-width: 590px) {
+
+            #titleandcatchysentence {max-width: 95%; min-width: 95%; margin-bottom: 25px;}
+
+            #maintitle {display: inline; line-height: 1.2em;}
+
+            #catchysentence {display: block; font-size: 0.95em; margin-top: 10px;}
+
+            #filtersarea {margin-top: 25px; min-width: 100%; max-width: 100%; height: 25px;}
+
+            .fa-money-bill-wave {position: absolute; top: 319px; left: 24px; z-index: 2;}
+    
+            #economic {position: absolute; top: 304px; left: 46px;}
+    
+            .fa-child {position: absolute; top: 319px; left: 212px; z-index: 2;}
+    
+            #family {position: absolute; top: 304px; left: 236px;}
+    
+            .fa-heart {position: absolute; top: 372px; left: 24px; z-index: 2;}
+    
+            #romantic {position: absolute; top: 357px; left: 46px;}
+
+            .fa-dog {position: absolute; top: 372px; left: 212px; z-index: 2;}
+
+            #animals {position: absolute; top: 357px; left: 236px; display: inline-block;}
+    
+            .fa-info {margin-top: 95px;}
+    
+            #info {display: block; position: relative; bottom: 19px; min-width: 75%; max-width: 75%; margin-left: 33px; margin-bottom: 10px;}
+
+            #popular {margin-top: 0px;}
+
+        }
+
+    /* Suppression des marges sur la section 2 et 3 de entre 481px et 514px */ 
+
+        @media all and (min-width: 481px) and (max-width: 514px) {
+
+            #section2 {margin-left: 0px; margin-right: 0px;}
+
+            #section3 {margin-left: 0px; margin-right: 0px;}
+
+    }
+
+    /* Styles sur l'aside Les plus populaires entre 481px et 600px */
+
+        @media all and (min-width: 481px) and (max-width: 600px) {
+
+            #popular {min-width: 481px; max-width: 600px; height: 575px}
+
+            #titlepopularandchartline {margin-left: 5%; margin-top: 25px; margin-bottom: 20px;}
+
+            #linephotos3 {display: flex; flex-direction: column; height: 575px;}
+
+            .frametext2 {line-height: 1.2em; height: 132px; width: 218px; font-size: 0.8em;}
+
+            .hostelnames2 {position: relative; top: 10px;}
+
+            .popularnight {position: relative; top: 18px; margin-bottom: 50px;}
+
+            .fa-star {font-size: 11px;}
+
+            .framephotopopular {width: 55%;}   
+
+            #framephotoandtext7 {margin-right: 6%; margin-left: 6%; width: 88%;} 
+
+            #photo7 {width: 312px; position: relative; right: 50px; bottom: 55px;}
+
+            #framephotoandtext8 {align-self: flex-start; margin-right: 6%; margin-top: 11px; margin-left: 6%; width: 88%;}
+
+            #photo8 {width: 318px; position: relative; right: 55px; bottom: 54px;}
+
+            #framephotoandtext9 {margin-right: 6%; margin-top: 11px; margin-left: 6%; width: 88%;}
+
+            #photo9 {width: 280px; position: relative; right: 16px; bottom: 200px;}
+
+        }
+
+
+    /* Recentrage des images entre 481px et 550px */
+
+        @media all and (min-width: 481px) and (max-width: 550px) {
+    
+            #photo1 {right: 55px;}
+
+            #photo2 {right: 45px;}
+
+            #photo3 {right: 60px;}
+
+            #photo4 {right: 75px;}
+
+            #photo5 {right: 45px;}
+
+            #photoactivity2 {right: 55px;}
+
+            #photoactivity3 {right: 55px;}
+            
+            #photoactivity5 {position: relative; right: 60px; bottom: 15px;}
+
+            #photoactivity6 {right: 50px;}
+
+        }
+
+
+    /* Styles pour le footer entre 481px et 600px*/
+    
+        @media all and (min-width: 481px) and (max-width: 600px) {
+
+            footer {flex-direction: column; min-width: 481px; max-width: 600px; height: 455px;}
+
+            .footercolumns {margin-left: 5%; margin-right: 0px; margin-top: 25px;}
+
+        }
