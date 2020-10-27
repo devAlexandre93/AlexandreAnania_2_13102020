@@ -4,7 +4,7 @@ body {margin : 0 0 0 0;}
 
 /* Styles sur le nav */
 
-nav {margin-left: 0px; min-width: 320px; max-width: 480px; height: 60px; margin-bottom: 85px;}
+nav {margin-left: 0px; height: 145px; margin-bottom: 0px; min-width: 320px; max-width: 480px;}
 
 #logo {width: 95px; top: 20px; ; left: 8%;}
 
@@ -22,7 +22,7 @@ nav {margin-left: 0px; min-width: 320px; max-width: 480px; height: 60px; margin-
 
 /* Styles sur section1 */
 
-    #section1 {min-width: 92%; margin-left: 8%; margin-right: 0px; margin-bottom: 0px; overflow: hidden;}
+    #section1 {min-width: 294px; max-width: 480px; margin-left: 8%; margin-right: 0px; margin-bottom: 0px; overflow: hidden;}
 
     /* Styles sur la zone de recherche */
 
@@ -254,5 +254,3 @@ nav {margin-left: 0px; min-width: 320px; max-width: 480px; height: 60px; margin-
         #photoactivity6 {width: 425px; position: relative; bottom: 65px;}
 
     }
-
-
