@@ -40,7 +40,7 @@ nav {margin-left: 0px; height: 145px; margin-bottom: 0px; min-width: 320px; max-
 
         .fa-search {color: white; position: relative; top: 15px; right: 43px; font-size: 0.8em; font-weight: 900;}
 
-        button:hover {color: transparent; background: #0065FC; border: 1px solid #0065FC}
+        button:hover {color: transparent; background: #0065FC; border: 1px solid transparent}
 
         .fa-search:hover {color: black;}
 
