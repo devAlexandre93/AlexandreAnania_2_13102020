@@ -9,12 +9,14 @@
 /* Styles sur les titres */
 
 h1 {font-weight: bold; font-size: 1.3em;} 
+
+/* Styles sur le header */
+
+    #logo {width: 85px; position: absolute; top: 30px; margin-left: 2%;}
     
 /* Styles sur le nav */
 
     nav {margin-bottom: 70px; margin-right: 2%; margin-left: 2%; min-width: 1250px; max-width: 1350px;}
-
-    #logo {width: 85px; position: absolute; top: 30px;}
 
     #navbuttons {display: flex; justify-content: flex-end;}
 
@@ -86,7 +88,9 @@ h1 {font-weight: bold; font-size: 1.3em;}
 
     #section2 {display: flex; margin-left: 2%; margin-right: 2%;}
 
-    .fa-star {color: #0065FC;}
+    .bluestar {color: #0065FC;}
+
+    .greystar {color: #f2f2f2;}
 
     .hostelnames, .hostelnames2 {font-size: 1.1em; font-weight: bold;}
 
@@ -160,7 +164,7 @@ h1 {font-weight: bold; font-size: 1.3em;}
 
         .popularnight {margin-bottom: 24px;}
 
-        #framephotoandtext7:hover, #framephotoandtext8:hover, #framephotoandtext9:hover {box-shadow: 0 0 20px black;  transition: 400ms;}
+        #framephotoandtext7:hover, #framephotoandtext8:hover, #framephotoandtext9:hover {box-shadow: 0 0 20px black; transition: 400ms;}
 
         /* Styles sur la première image */
 

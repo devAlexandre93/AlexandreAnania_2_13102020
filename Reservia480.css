@@ -2,11 +2,13 @@
 
 body {margin : 0 0 0 0;}
 
+/* Styles sur le header */
+
+    #logo {width: 95px; top: 20px; ; left: 8%;}
+
 /* Styles sur le nav */
 
 nav {margin-left: 0px; height: 145px; margin-bottom: 0px; min-width: 320px; max-width: 480px;}
-
-#logo {width: 95px; top: 20px; ; left: 8%;}
 
 #navbuttons {display: block;}
 
@@ -36,7 +38,7 @@ nav {margin-left: 0px; height: 145px; margin-bottom: 0px; min-width: 320px; max-
 
         button {color: transparent; border-radius: 13px 13px 13px 13px; width: 42px; position: relative; right: 15px;}
 
-        .fa-search {color: white; position: relative; top: 15px; right: 43px; font-size: 0.8em; font-weight: 400;}
+        .fa-search {color: white; position: relative; top: 15px; right: 43px; font-size: 0.8em; font-weight: 900;}
 
         button:hover {color: transparent; background: #0065FC; border: 1px solid #0065FC}
 
@@ -181,8 +183,7 @@ nav {margin-left: 0px; height: 145px; margin-bottom: 0px; min-width: 320px; max-
 
 
 /* Media query bonus */
-
-
+  
     /* Style pour le input en max 350px */    
 
         @media all and (max-width: 350px) {
